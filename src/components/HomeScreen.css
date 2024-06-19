@@ -1,0 +1,181 @@
+/* Whole page container */
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .gmail {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .user-profile {
+    margin-left: auto;
+  }
+  
+  .profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  /* Search bar styles */
+  .search-bar {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search-bar button {
+    width: 80px;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  .search-bar button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Featured Jobs section styles */
+  .featured-jobs-section {
+    margin-bottom: 40px;
+  }
+  
+  .featured-jobs-section h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .job-card {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+  }
+  
+  .job-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
+  
+  .job-details {
+    flex: 1;
+  }
+  
+  .job-title {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  
+  .company-name {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .job-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .salary,
+  .location {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* Placeholder for job logo */
+  .logo-placeholder {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  /* See all link */
+  .see-all {
+    text-align: right;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .see-all:hover {
+    text-decoration: underline;
+  }
+  
+  /* Popular Jobs section styles */
+  .popular-jobs-section {
+    margin-bottom: 40px;
+  }
+  
+  .popular-jobs-section h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Placeholder styles for popular jobs */
+  .placeholder {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+  }
+  
+  .placeholder .logo-placeholder {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #666;
+  }
+  
